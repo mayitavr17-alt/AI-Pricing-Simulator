@@ -96,3 +96,10 @@ The original project is available at:
 
 This repository documents my replication, modifications, and experiments. It does not currently redistribute the original application's source code or trained model files.
 The original repository did not display an explicit redistribution license during review.
+
+
+### Technical Documentation
+
+- [Technical Modifications](MODIFICATIONS.md) — Explains the changes I made to the Python backend, profit calculations, and Streamlit dashboard.
+
+- [Reproducing the Experiments](REPRODUCING.md) — Documents the setup, experimental settings, results, and limitations.
