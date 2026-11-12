@@ -49,6 +49,15 @@ With the current selling price set to $130:
 | Predicted Demand  |         1,601 |          1,601 |
 | Estimated Profit  |    \~$153,736 |      \~$57,651 |
 
+### Cost Sensitivity — Visual Comparison
+
+| Unit Cost: $60 | Unit Cost: $120 |
+|:---:|:---:|
+| ![Cost $60 experiment](images/cost-60.png) | ![Cost $120 experiment](images/cost-120.png) |
+
+Both experiments used the same starting price of $130 and a 20% price increase limit. Changing unit cost reduced estimated profit without changing the recommended price of $156.
+  
+
 Finding: Doubling unit cost significantly decreased estimated profit but did not change the recommended selling price.
 
 Experiment 2 — Expanding the Price Range
