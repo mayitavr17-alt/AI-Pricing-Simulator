@@ -24,7 +24,7 @@ The application uses:
 - Optimization: Compares the predicted outcomes and selects the best option for the chosen objective
 
 ## The process follows this sequence:
-Business Inputs → Preprocessing → ML Demand Prediction → Profit Calculation → Price Recommendation**
+Business Inputs → Preprocessing → ML Demand Prediction → Profit Calculation → Price Recommendation
 
 ## My Modifications
 I extended the original project by:
