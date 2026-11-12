@@ -50,16 +50,17 @@ Experiment 1 — Changing Unit Cost
 
 Both experiments used the same starting price of $130 and a 20% price increase limit. Changing unit cost reduced estimated profit without changing the recommended price of $156.
   
-
 Finding: Doubling unit cost significantly decreased estimated profit but did not change the recommended selling price.
 
 Experiment 2 — Expanding the Price Range
 
-| Metric               | 20% Increase Limit | 50% Increase Limit |
-| -------------------- | -----------------: | -----------------: |
-| Highest Tested Price |               $156 |               $195 |
-| Recommended Price    |               $156 |               $195 |
-| Predicted Demand     |              1,601 |              1,598 |
+### Price Range Experiment — Visual Comparison
+
+| 20% Maximum Increase | 50% Maximum Increase |
+|:---:|:---:|
+| ![20% price range](images/cost-120.png) | ![50% price range](images/range-50.png) |
+
+Both scenarios used a starting price of $130. Expanding the maximum price increase from 20% to 50% changed the recommended price from $156 to $195, while predicted demand changed only slightly, from 1,601 to 1,598 units. In both scenarios, the simulator recommended the highest price within the tested range.
 
 Finding: The simulator recommended the highest allowed price in both scenarios, raising questions about its sensitivity to optimization constraints.
 
